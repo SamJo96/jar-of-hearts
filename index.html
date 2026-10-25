@@ -1,4 +1,4 @@
-html = r'''<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -301,6 +301,5 @@ shuffleReasons();
 </body>
 </html>'''
 
-path = Path("/mnt/data/jar-of-hearts.html")
 path.write_text(html, encoding="utf-8")
 print(f"Created {path} ({path.stat().st_size:,} bytes)")
