@@ -75,14 +75,20 @@
   button:hover { transform:translateY(-2px); }
   button:focus-visible { outline:3px solid #9b6d91; outline-offset:4px; }
   .primary {
-  background: linear-gradient(135deg, #a78bfa, #8065c9);
-  color: white;
-  box-shadow: 0 9px 24px #00000035;
-}
+  background: linear-gradient(135deg, #e9c5ff, #c4a1ff);
+  color: #24183f;
+  border: 1px solid #f5e6ff;
+  box-shadow: 0 0 22px #c4a1ff66;
+  }
   .secondary {
-  background: #ffffff12;
-  color: #f2e7ff;
-  border: 1px solid #c7b3ed77;
+  background: #f4eaff;
+  color: #35234f;
+  border: 1px solid #d8b4fe;
+}
+  .primary:hover,
+.secondary:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
 }
   .buttons { display:flex; justify-content:center; gap:10px; flex-wrap:wrap; }
   .reason-card { display:none; max-width:500px; margin:22px auto 14px; padding:25px 22px 22px; background:rgba(255,251,248,.88); border:1px solid #f0d3e0; border-radius:18px; box-shadow:0 12px 35px #8b5d8120; animation: reveal .45s ease both; }
@@ -125,8 +131,8 @@
 <main class="page">
   <div class="eyebrow">A little something for you</div>
   <h1>A Jar of 100<br>Reasons I Love You</h1>
-  <p class="subtitle">Because apparently one reason wasn't enough.</p>
-  <p class="note-small">Made for my Bubs, with love (and a little nonsense).</p>
+  <p class="subtitle">100 reasons, and somehow you’re still annoying. ❤️.</p>
+  <p class="note-small">Made for my Hubby, with love (and a little nonsense).</p>
 
   <div class="jar-stage" aria-label="A glass jar full of floating hearts">
     <div class="jar-lid"></div>
